@@ -107,6 +107,7 @@ void main() {
   var isMember = true;
   var hasDiscount = false;
   print(isMember && hasDiscount);
+<<<<<<< HEAD
 
   // ข้อที่ 19
   print("ข้อที่ 19")
@@ -132,10 +133,34 @@ void main() {
   int number = -5;
   if (number > 0) {
     print( "Positive")
+=======
+  
+  //ข้อที่ 19
+  isMember = true;
+  hasCoupon = false;
+  print( isMember || hasCoupon);
+
+  //ข้อที่ 20
+  isMember = true;
+  hasCoupon = false;
+  print( isMember && !hasCoupon);
+
+  //ข้อที่ 21
+  age = 25;
+  if (age > 18) {
+    print("You are an adult");
+  }
+
+  //ข้อที่ 22
+  int number = -5;
+  if (number > 0) {
+    print("Positive");
+>>>>>>> 7b73041e551479accc79a26777ab5be5cd1cbae3
   } else {
     print("Negative or Zero");
   }
 
+<<<<<<< HEAD
   // ข้อที่ 23
   print("ข้อที่ 23")
   for loop (int i = 1; i <= 5; i++) {
@@ -144,12 +169,21 @@ void main() {
 
   // ข้อที่ 24
   print("ข้อที่ 24")
+=======
+  //ข้อที่ 23
+  for (int i = 1; i <= 5; i++) {
+    print("รอบที่ $i");
+  }
+
+  //ข้อที่ 24
+>>>>>>> 7b73041e551479accc79a26777ab5be5cd1cbae3
   int count = 1;
   while (count <= 3) {
     print("Count: $count");
     count++;
   }
 
+<<<<<<< HEAD
   // ข้อที่ 25
   int score = 80;
   String messageTernary = (score >= 60) ? "Pass" : "Fail";
@@ -207,4 +241,63 @@ void main() {
       print(number);
       number++;
     }while (number < 5);
+=======
+  //ข้อที่ 25
+  score = 80;
+  String messageTernary = (score >= 60 ) ? "Pass" : "Fail";
+  print(messageTernary);
+  
+
+  //ข้อที่ 26
+  int day = 3;
+  switch (day) {
+    case 1:
+      print("Monday");
+      break;
+     case 2:
+      print("Tuseday");
+      break;
+     case 3:
+      print("Wednesday");
+      break;  
+  }
+
+  
+  //ข้อที่ 27
+  for (int i = 1; i <= 10; i++) {
+    if (i == 4) {
+      print("เจอเลข 4 หยุดทำงาน!");
+      break;
+    }
+    print("i = $i");
+  }
+
+  //ข้อที่ 28
+  for (int i = 1; i <= 5; i++) {
+    if (i == 3) {
+      print("เจอเลข 3 หยุดทำงาน!");
+      continue;
+    }
+    print("i = $i");
+  }
+
+  //ข้อที่ 29
+  int temp = 28;
+  if (temp > 30) {
+    print("Its hot.");
+  } else if (temp >= 20){
+    print("Its warm.");
+  }else {
+    print("Its cool.");
+  }
+
+
+  //ข้อที่ 30
+  number = 5;
+  do {
+    print(number);
+    number++;
+  }while (number < 5);
+
+>>>>>>> 7b73041e551479accc79a26777ab5be5cd1cbae3
 }
